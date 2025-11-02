@@ -58,7 +58,7 @@ Step 4 – Behaviour Segmentation (RFM Analysis)
 
 Calculated Recency, Frequency, and Monetary values for each customer:
 
-![Customer_Behavior_Analysis]()
+![Customer_Behavior_Analysis](https://github.com/sangralArsha/Customer_Behavior_Analysis/blob/main/customer_Behaviour_Dashboard.png)
 
 
 Segmented customers into groups:
@@ -66,7 +66,8 @@ Best Customers, Potential Loyalists, At-Risk, and Lost Customers.
 
 Step 5 – Visualization (Power BI)
 
-Created an interactive Power BI dashboard including:
+Created an interactive Power BI dashboard ![Customer_Behavior_Analysis](https://github.com/sangralArsha/Customer_Behavior_Analysis/blob/main/customer_Behaviour_Dashboard.png)
+including:
 
 KPI Cards (Total Revenue, Total Customers, Repeat Rate)
 
