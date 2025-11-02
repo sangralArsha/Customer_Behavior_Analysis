@@ -95,20 +95,24 @@ Step 6 – Insights & Storytelling
 
 💡 Recommendation: Focus on cross-selling between Beauty & Electronics and retention campaigns for “At-Risk” customers.
 
-Step 7 – Final Deliverable
-
-Deliverables include:
-
-Power BI dashboard (Customer_Behaviour_Analysis.pbix)
-
-SQL script (Customer_Behaviour_Analysis.sql)
-
-Dataset (customer_orders_10000.csv)
-
-PDF summary report
-
-🧠 Skills Demonstrated
+kills Demonstrated
 
 Data Cleaning & Transformation (SQL, Power Query)
 
-Exploratory Data An
+Exploratory Data Analysis (EDA)
+
+Customer Segmentation (RFM)
+
+Data Visualization (Power BI)
+
+Business Storytelling & Insights Communication
+
+💻 Tools Used
+
+SQL (PostgreSQL / SQL Server) – Data querying and analysis
+
+Power BI – Visualization and dashboard building
+
+Excel / CSV – Data preparation and validation
+
+Python (optional) – Data generation and manipulation
