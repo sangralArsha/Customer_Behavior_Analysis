@@ -58,7 +58,7 @@ Step 4 – Behaviour Segmentation (RFM Analysis)
 
 Calculated Recency, Frequency, and Monetary values for each customer:
 
-![Customer_Behavior_Analysis](https://github.com/sangralArsha/Customer_Behavior_Analysis/blob/main/customer_Behaviour_Dashboard.png)
+![Customer_Behavior_Analysis](https://github.com/sangralArsha/Customer_Behavior_Analysis/blob/main/RFM_sqlquery.png)
 
 
 Segmented customers into groups:
