@@ -1,10 +1,10 @@
-#🛍️ Customer Behaviour Analysis – E-Commerce Dataset
+# 🛍️ Customer Behaviour Analysis – E-Commerce Dataset
 📊 Project Overview
 
 This project analyzes customer purchasing behaviour in an online retail environment to understand sales trends, customer loyalty, and segment users based on buying patterns.
 Using SQL for analysis and Power BI for visualization, the project identifies which product categories drive revenue, which cities have the most engaged customers, and how loyal different customer groups are using RFM (Recency–Frequency–Monetary) segmentation.
 
-##🎯 Objectives
+## 🎯 Objectives
 
 Understand overall sales performance and key drivers.
 
@@ -16,8 +16,8 @@ Visualize insights through interactive Power BI dashboards.
 
 Translate data findings into actionable business recommendations.
 
-##🧩 Steps Followed
-###Step 1 – Load and Understand the Data
+## 🧩 Steps Followed
+### Step 1 – Load and Understand the Data
 
 Dataset: customer_orders_10000.csv (10,000 transactions).
 
@@ -25,7 +25,7 @@ Columns include: OrderID, CustomerID, Gender, Age, City, Product, Category, Orde
 
 Each row represents a single customer purchase.
 
-###Step 2 – Data Cleaning
+### Step 2 – Data Cleaning
 
 Ensured no duplicates or missing data.
 
@@ -33,7 +33,7 @@ Verified TotalAmount = Quantity * UnitPrice.
 
 Converted OrderDate to date format.
 
-###Step 3 – Exploratory Data Analysis (SQL)
+### Step 3 – Exploratory Data Analysis (SQL)
 
 Example Queries:
 
@@ -54,7 +54,7 @@ FROM Customer_Orders
 GROUP BY CustomerID
 HAVING COUNT(OrderID) > 1;
 
-###Step 4 – Behaviour Segmentation (RFM Analysis)
+### Step 4 – Behaviour Segmentation (RFM Analysis)
 
 Calculated Recency, Frequency, and Monetary values for each customer:
 
@@ -64,7 +64,7 @@ Calculated Recency, Frequency, and Monetary values for each customer:
 Segmented customers into groups:
 Best Customers, Potential Loyalists, At-Risk, and Lost Customers.
 
-###Step 5 – Visualization (Power BI)
+### Step 5 – Visualization (Power BI)
 
 Created an interactive Power BI dashboard ![Customer_Behavior_Analysis](https://github.com/sangralArsha/Customer_Behavior_Analysis/blob/main/customer_Behaviour_Dashboard.png)
 including:
@@ -83,7 +83,7 @@ Table: Top 10 Customers by Spending
 
 Line Chart: Sales Trend over Time
 
-###Step 6 – Insights & Storytelling
+### Step 6 – Insights & Storytelling
 
 💰 Electronics dominates with ~50% of total revenue.
 
@@ -95,7 +95,7 @@ Line Chart: Sales Trend over Time
 
 💡 Recommendation: Focus on cross-selling between Beauty & Electronics and retention campaigns for “At-Risk” customers.
 
-##Skills Demonstrated
+## Skills Demonstrated
 
 Data Cleaning & Transformation (SQL, Power Query)
 
@@ -106,8 +106,8 @@ Customer Segmentation (RFM)
 Data Visualization (Power BI)
 
 Business Storytelling & Insights Communication
-
-##💻 Tools Used
+ 
+## 💻 Tools Used
 
 SQL (PostgreSQL / SQL Server) – Data querying and analysis
 
