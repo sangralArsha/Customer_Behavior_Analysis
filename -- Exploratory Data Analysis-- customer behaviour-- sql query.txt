@@ -1,0 +1,53 @@
+-- Exploratory Data Analysis
+
+-- Which product drive revenue
+
+
+select product, sum(total_amount) revenue
+from customers_orders
+group by product
+order by  revenue desc	
+limit  10
+
+-- least revenue generated products
+	
+select product, sum(total_amount) revenue
+from customers_orders
+group by product
+order by  revenue asc	
+limit  10	
+
+-- top cities by revenue
+
+select  city, sum(total_amount) revenue
+from customers_orders
+group by city
+order by  revenue desc	
+limit  10
+
+-- Repeat Customer count
+	
+select  customer_id, count(order_id) num_orders
+from customers_orders
+group by customer_id
+having count(order_id)>1
+order by num_orders	desc
+
+-- Behaviour Segmentation (RFM Analysis)
+
+-- prepare the RFM table
+select customer_id, 
+	max(order_date) last_purchase_date, 
+	count(order_id) frequency,
+	sum(total_amount) monetary
+from customers_orders
+group by customer_id 	
+
+-- add recency column
+select customer_id, 
+	('2025-11-01'::date - Max(order_date)) Recency,
+	count(order_id) frequency,
+	sum(total_amount) monetary
+from customers_orders
+group by customer_id 	
+order by  monetary desc
